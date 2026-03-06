@@ -1,17 +1,55 @@
-# Roblox Studio files
+# Git ignore patterns for BLACKX projects
+
+# Roblox files
 *.rbxl
 *.rbxlx
+*.rbxm
+*.rbxmx
+*.place
 
-# Temp
-*_tmp.rbxl
-*_tmp.rbxlx
+# Logs and debugging
+*.log
+logs/
+debug/
 
-# Output
-output/
-
-# IDE
-.vscode/
-
-# System
+# OS specific
 .DS_Store
 Thumbs.db
+.vs/
+.vscode/
+
+# Dependencies (if using git modules)
+.git/
+node_modules/
+.npm/
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Build outputs
+build/
+dist/
+bin/
+
+# Environment variables
+.env
+.env.local
+
+# Package locks (if using external package managers)
+package-lock.json
+yarn.lock
+
+# Editor backups
+*.bak
+*.backup
+
+# Roblox Studio specific
+*.backup.*
