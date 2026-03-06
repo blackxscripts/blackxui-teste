@@ -1,0 +1,17 @@
+# Roblox Studio files
+*.rbxl
+*.rbxlx
+
+# Temp
+*_tmp.rbxl
+*_tmp.rbxlx
+
+# Output
+output/
+
+# IDE
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
